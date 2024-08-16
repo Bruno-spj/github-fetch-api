@@ -146,9 +146,31 @@ main {
   color: #fff
 }
 
+
+.repositories-list p{
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
 .container .profile-data.hide{
   display: none;
 }
+
+.events {
+  padding: 15px;
+  border: 1px solid #24292e;
+  border-radius: 10px;
+}
+
+.events ul li{
+  padding: 15px;
+}
+.events h2{
+  padding: 20px;
+}
+
 
 @media (max-width: 1280px) {
   .container {
